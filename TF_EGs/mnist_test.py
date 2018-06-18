@@ -2,7 +2,6 @@ import time
 import numpy as np
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
-
 # Step 1: Read in data
 # using TF Learn's built in function to load MNIST data to the folder data/mnist
 MNIST = input_data.read_data_sets("/data/mnist" , one_hot = True )
