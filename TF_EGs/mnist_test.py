@@ -1,5 +1,6 @@
 import time
 import numpy as np
+import torch
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
 # Step 1: Read in data
